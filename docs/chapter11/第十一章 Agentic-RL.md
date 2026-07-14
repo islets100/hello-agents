@@ -2207,6 +2207,7 @@ print(f"最佳准确率: {study.best_value:.2%}")
   <p>表 11.8 超参数调优方法对比</p>
   <img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/11-figures/11-table-8.png" alt="" width="85%"/>
 </div>
+
 ### 11.6.3 分布式训练
 
 当数据量和模型规模增大时，单 GPU 训练会变得非常缓慢。这时我们需要使用分布式训练来加速训练过程。HelloAgents 基于 TRL 和 Hugging Face Accelerate，天然支持多 GPU 和多节点分布式训练
